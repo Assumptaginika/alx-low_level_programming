@@ -1,7 +1,7 @@
 #include <stdio.h>
-
 int main(void)
 {
-puts("_putchar\n");
+Puts('_putchar');
+Puts("\n");
 return 0;
 }
