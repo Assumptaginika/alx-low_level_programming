@@ -1,9 +1,9 @@
 #include "main.h"
 /**
  * main - prints a string
- * Description: the string is_putchar
+ * Description: the string is _putchar
  *
- * Reurn: 0
+ * Return: 0
  */
 int main(void)
 {
@@ -21,4 +21,3 @@ int main(void)
 	_putchar('\n');
 	return (0);
 }
-
