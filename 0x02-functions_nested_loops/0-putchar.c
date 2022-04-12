@@ -1,7 +1,12 @@
 #include <stdio.h>
+
 int main(void)
 {
-Puts('_putchar');
-Puts("\n");
-return 0;
+char p[8] = {'_','p',...,'r'};
+int i;
+for (i = 0; i < 8, i++);
+{
+putchar(p[i]);
 }
+putchar('\n');
+return 0;
