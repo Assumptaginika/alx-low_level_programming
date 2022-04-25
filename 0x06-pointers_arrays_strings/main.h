@@ -1,27 +1,21 @@
-#include "main.h"
+# ifndef MAIN_H
+# define MAIN-H
+
 #include <stdio.h>
 
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
-{
-	char s1[98];
-    char *ptr;
-    int i;
+char *_strcat(char *dest, char *src);
+char *_strncat(char *dest, char *src, int n);
+char *_strncpy(char *dest, char *src, int n);
+int _strcmp(char *s1, char *s2);
+void reverse_array(int *a, int n);
+char *string_toupper(char *);
+char *cap_string(char *);
+char *leet(char *);
+char *rot13(char *);
+void print_number(int n);
+char *infinite_add(char *n1, char *n2, char *r, int size_r);
+void print_buffer(char *b, int size);
+int _putchar(char);
 
-    for (i = 0; i < 98 - 1; i++)
-    {
-        s1[i] = '*';
-    }
-    s1[i] = '\0';
-    printf("%s\n", s1);
-    printf("%s\n", s2);
-    ptr = _strcat(s1, s2);
-    printf("%s", s1);
-    printtf("%s", s2);
-    printf("%s", ptr);
-    return (0);
-}
+#endif
+
