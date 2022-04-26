@@ -1,1 +1,1 @@
-0x07-pointers_arrays_strings Readme.md
+0x07-pointers_arrays_strings README.md
